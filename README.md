@@ -3,6 +3,22 @@ SpreeActiveSaless
 
 Introduction goes here.
 
+Reproduce the undefined method `nested_set_scope' error
+-------------------------------------------------------
+
+My store gemfile is attached to help to know what is my runtime environment.
+```
+Gemfile_store
+```
+
+Go to the admin of the store and try to add a new sale.
+
+```shell
+http://0.0.0.0:3000/admin/active_sales/new
+```
+Fill in the fields and submit. You should get the error.
+
+
 Installation
 ------------
 
